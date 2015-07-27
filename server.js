@@ -7,8 +7,8 @@ var port = process.env.PORT || 3000
 
 app.set('views', './views');
 app.set('view engine', 'ejs');
-// app.use(express.static(__dirname + '/public'));
-app.use('/public',express.static(process.env.PWD +'/public'));
+app.use(express.static(__dirname + '/public'));
+
 
 
 app.get('/', function(req, res){
