@@ -19,6 +19,6 @@ app.get('/work', function(req, res){
 res.render('work')
 })
 
-app.listen(3000, function(){
+app.listen(port, function(){
   console.log('Server started on http://localhost:3000');
 })
