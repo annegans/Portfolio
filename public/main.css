@@ -1,0 +1,255 @@
+@import url(http://fonts.googleapis.com/css?family=Mallanna);
+
+.box {
+ margin-right: -4px;
+ display: inline-block;
+ vertical-align: top;
+}
+
+
+.box033{
+  width:1.3%;
+}
+
+.box1 {
+ width: 10%;
+ background-color: black;
+ height: 300px;
+}
+
+.box2 {
+ width: 24.3%;
+}
+
+.box25 {
+  width: 25%;
+
+}
+
+.box3 {
+ width: 30%;
+ background-color: black;
+ height: 360px;
+}
+
+
+.box4 {
+ width: 40%;
+ background-color: black;
+ height: 360px;
+}
+
+.box5 {
+ width: 50%;
+ /* background-color: black; */
+
+}
+
+.box6 {
+ width: 60%;
+ background-color: black;
+ height: 360px;
+}
+
+.box7 {
+ width: 70%;
+ background-color: black;
+ height: 360px;
+}
+
+.box8 {
+ width: 80%;
+ background-color: black;
+ height: 360px;
+}
+
+.box9 {
+ width: 90%;
+ background-color: black;
+ height: 269px;
+}
+
+.box10 {
+ width: 100%;
+
+
+}
+
+
+.header{
+  height: 215px;
+}
+
+.namebox{
+  text-align: center;
+}
+.name{
+  font-size: 31px;
+  font-family: helvetica;
+  padding: 108px;
+  letter-spacing: 40.5px;
+  margin-left: 3%;
+}
+
+.border {
+  height: 269px;
+}
+
+.bordernone{
+  height: 269px;
+}
+
+.link {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: helvetica;
+  list-style-type: none; 
+  letter-spacing: 5px; 
+
+}
+
+.split{
+  height: 20px;
+}
+
+.bwork{
+  background-color: rgb(54, 133, 232);
+
+}
+
+.babout{
+  background-color: rgb(93, 255, 236);
+}
+
+.bcontact{
+  background-color: rgb(36, 210, 232);
+
+}
+.bwork2{
+ background-color: rgb(105, 205, 255);
+}
+
+.togglebox{
+    width: 51.3%;
+    height: 400px;
+    display: none;
+    margin-left: 24.3%;
+    margin-bottom: 1.4%;
+    
+    background-color: rgb(93, 255, 236);
+  display:none;
+}
+
+.togglebox2{
+    width: 51.3%;
+    height: 400px;
+    display: none;
+    margin-left: 24.3%;
+    margin-bottom: 1.4%;
+    background-color: rgb(36, 210, 232);
+    display:none;
+}
+
+.aboutbox{
+
+}
+.titlebox{
+    padding: 8%;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 19px;
+    letter-spacing: 5px;
+
+}
+
+.headingbox{
+  font-family: 'Mallanna', sans-serif;
+  line-height: 23px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 18px;
+  margin-top: -4%;
+}
+
+
+.paragraphbox{
+    font-family: 'Mallanna', sans-serif;
+    line-height: 23px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+
+
+}
+
+.contactPro{
+ font-family: helvetica;
+    line-height: 66px;
+    /* margin-top: -19%; */
+    /* margin-right: 5%; */
+    font-size: 21px;
+    margin-top: -19%;
+    margin-left: 25.41%;
+    letter-spacing: 8.1px;
+
+}
+
+.contactGit{
+     font-family: helvetica;
+    line-height: -3px;
+    margin-top: -2%;
+    /* margin-right: 5%; */
+    font-size: 16px;
+    /* margin-top: -19%; */
+    margin-left: 25.41%;
+    letter-spacing: 3px;
+
+}
+  
+
+
+.contactMail{
+    font-family: helvetica;
+    line-height: 30px;
+    /* margin-top: -19%; */
+    /* margin-right: 5%; */
+    font-size: 12px;
+    /* margin-top: -19%; */
+    margin-left: 25.41%;
+    letter-spacing: 3.88px;
+    /* text-align: center; */
+
+}
+
+
+.contactName{
+    font-family: helvetica;
+    line-height: 29px;
+    /* margin-top: -19%; */
+    /* margin-right: 5%; */
+    font-size: 21.5px;
+    /* margin-top: -19%; */
+    margin-left: 8.41%;
+    letter-spacing: 14.5px;
+    /* text-align: center; */
+    padding: 17%;
+}
+}
+
+
+
+  @media (min-width: 768px) and (max-width: 1024px ) {
+
+.bwork{
+  background-color: black;
+
+}
+
+  
+
+
+
