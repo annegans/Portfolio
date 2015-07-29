@@ -187,10 +187,8 @@
 }
 
 .contactPro{
- font-family: helvetica;
+    font-family: helvetica;
     line-height: 66px;
-    /* margin-top: -19%; */
-    /* margin-right: 5%; */
     font-size: 21px;
     margin-top: -19%;
     margin-left: 25.41%;
@@ -199,7 +197,7 @@
 }
 
 .contactGit{
-     font-family: helvetica;
+    font-family: helvetica;
     line-height: -3px;
     margin-top: -2%;
     /* margin-right: 5%; */
@@ -215,10 +213,7 @@
 .contactMail{
     font-family: helvetica;
     line-height: 30px;
-    /* margin-top: -19%; */
-    /* margin-right: 5%; */
     font-size: 12px;
-    /* margin-top: -19%; */
     margin-left: 25.41%;
     letter-spacing: 3.88px;
     /* text-align: center; */
@@ -229,16 +224,12 @@
 .contactName{
     font-family: helvetica;
     line-height: 29px;
-    /* margin-top: -19%; */
-    /* margin-right: 5%; */
     font-size: 21.5px;
-    /* margin-top: -19%; */
     margin-left: 8.41%;
     letter-spacing: 14.5px;
-    /* text-align: center; */
     padding: 17%;
 }
-}
+
 
 
 
