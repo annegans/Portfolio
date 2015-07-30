@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Mallanna);
+@import url(https://fonts.googleapis.com/css?family=Mallanna);
 
 .box {
  margin-right: -4px;
@@ -81,8 +81,17 @@
 }
 
 .namebox{
-  text-align: center;
+ 
 }
+
+.naam-logo{
+  width: 54.9%;
+  margin-top: 7%;
+  /*margin-left: 0.30%;*/
+  margin-left: 22.6%;
+
+}
+
 .name{
   font-size: 31px;
   font-family: helvetica;
@@ -93,6 +102,7 @@
 
 .border {
   height: 269px;
+
 }
 
 .bordernone{
@@ -134,24 +144,23 @@
 }
 
 .togglebox{
-    width: 51.3%;
-    height: 400px;
+    width: 51.3%; 
     display: none;
     margin-left: 24.3%;
-    margin-bottom: 1.4%;
-    
     background-color: rgb(93, 255, 236);
-  display:none;
+    display:none;
+    padding-bottom: 3%;
+    
+
 }
 
 .togglebox2{
     width: 51.3%;
-    height: 400px;
     display: none;
     margin-left: 24.3%;
-    margin-bottom: 1.4%;
     background-color: rgb(36, 210, 232);
     display:none;
+    padding-bottom: 20px;
 }
 
 .aboutbox{
@@ -222,25 +231,62 @@
 
 
 .contactName{
-    font-family: helvetica;
-    line-height: 29px;
-    font-size: 21.5px;
-    margin-left: 8.41%;
-    letter-spacing: 14.5px;
-    padding: 17%;
+  font-family: helvetica;
+  line-height: 29px;
+  font-size: 21.5px;
+  margin-left: 8.41%;
+  letter-spacing: 14.5px;
+  padding: 17%;
 }
 
 
+.hide-split{
+  display: none;
+}
 
+.hide-show{
+  display: block;
+}
 
-  @media (min-width: 768px) and (max-width: 1024px ) {
+#show{
+  display: inline-block;
+}
 
-.bwork{
-  background-color: black;
+.scroll{
+  overflow: scroll;
+}
+
+@media (min-width: 768px) and (max-width: 1024px ) {
+
+  .bwork{
+    background-color: black;
+  }
 
 }
+
+@media (min-width: 60px) and (max-width:  767px){
+  .bwork{
+    background-color: red;
+    height: 100px;
+  }
+}
+
+ 
 
   
+@media (min-width: 60px) and (max-width:  1200px){
+  .name {
+    font-size: 22px;
+    font-family: helvetica;
+    padding: 135px;
+    letter-spacing: 30.5px;
+    margin-left: 3%;
+}
+ 
+}
+
+
+ 
 
 
 

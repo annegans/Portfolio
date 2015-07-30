@@ -14,3 +14,30 @@
 .project4b{
      background-color: rgb(217, 254, 161)
 }
+
+.hide-project{
+  display:none;
+}
+
+.project1-toggleclass{
+  display: none;
+}
+
+.project1text{
+  display:none;
+  background-color: rgb(78, 255, 183);
+}
+
+#show-text1{
+  display: inline-block;
+}
+
+
+.project1-toggleclass{
+    width: 51.3%;
+    display: none;
+    margin-left: 24.3%;
+    background-color: rgb(78, 255, 183);
+    display:none;
+    padding-bottom: 20px;
+}
