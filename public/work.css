@@ -19,6 +19,29 @@
   display:none;
 }
 
+.img-project{
+  border: 0;
+  width: 76%;
+  margin-left: 12%;
+  margin-top: 40px;
+
+}
+
+.projects-text{
+    padding: 10%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+
+#show-botton{
+  display: block;
+}
+
+#hide-botton{
+  display: none;
+}
+
+/*project1*/
 .project1-toggleclass{
   display: none;
 }
@@ -32,12 +55,113 @@
   display: inline-block;
 }
 
-
 .project1-toggleclass{
-    width: 51.3%;
+    width: 50.9%;
     display: none;
     margin-left: 24.3%;
     background-color: rgb(78, 255, 183);
-    display:none;
+    display: none;
     padding-bottom: 20px;
+    border: 5px solid rgb(78, 255, 183);
+
 }
+
+/*project2*/
+.project2-toggleclass{
+  display: none;
+}
+
+.project2text{
+  display:none;
+  background-color:  rgb(162, 253, 184)
+}
+
+#show-text2{
+  display: inline-block;
+}
+
+.project2-toggleclass{
+    width: 50.9%;
+    display: none;
+    margin-left: 24.3%;
+    background-color:  rgb(162, 253, 184)
+    display: none;
+    padding-bottom: 20px;
+    background-color:  rgb(162, 253, 184)
+}
+
+/*project3*/
+
+.project3-toggleclass{
+  display: none;
+}
+
+.project3text{
+  display:none;
+  background-color: rgb(121, 250, 143);
+}
+
+#show-text3{
+  display: inline-block;
+}
+
+.project3-toggleclass{
+    width: 50.9%;
+    display: none;
+    margin-left: 24.3%;
+    background-color: rgb(121, 250, 143);
+    display: none;
+    padding-bottom: 20px;
+    background-color: rgb(121, 250, 143);
+}
+
+
+/*project4*/
+
+.project4-toggleclass{
+  display: none;
+}
+
+.project4text{
+  display:none;
+  background-color: rgb(217, 254, 161)
+}
+
+#show-text4{
+  display: inline-block;
+}
+
+.project4-toggleclass{
+    width: 50.9%;
+    display: none;
+    margin-left: 24.3%;
+    background-color: rgb(217, 254, 161)
+    display: none;
+    padding-bottom: 20px;
+    background-color: rgb(217, 254, 161)
+}
+
+.go-back{
+    font-size: 11px;
+    border: 1px solid black;
+    width: 26%;
+    padding: 2px;
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 3%;
+    display: none;
+}
+
+.text-toggle-project{
+  
+  padding: 2px;
+  width: 50.6%;
+  margin-bottom: 1.2%;
+}
+
+
+
+
+
+
+
