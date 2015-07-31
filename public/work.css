@@ -132,13 +132,12 @@
 }
 
 .project4-toggleclass{
-    width: 50.9%;
+    width: 51%;
     display: none;
     margin-left: 24.3%;
-    background-color: rgb(217, 254, 161)
-    display: none;
+    background-color: rgb(217, 254, 161) display: none;
     padding-bottom: 20px;
-    background-color: rgb(217, 254, 161)
+    background-color: rgb(217, 254, 161);   
 }
 
 .go-back{
@@ -152,14 +151,51 @@
     display: none;
 }
 
-.text-toggle-project{
-  
+.text-toggle-project{ 
   padding: 2px;
-  width: 50.6%;
+  width: 51.4%;
   margin-bottom: 1.2%;
+  font-family: GillSans,"Gill Sans MT",Calibri,sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
+#text-toggle-project{ 
+    padding: 24px;
+    width: 48.2%;
+    margin-bottom: 1.2%;
+    font-family: GillSans,"Gill Sans MT",Calibri,sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
 
+.title-text{
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+
+}
+
+.view-live{
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: GillSans,"Gill Sans MT",Calibri,sans-serif;
+  font-size: 12px;
+
+}
+
+.center-text{
+  text-align: center;
+
+}
+
+.margin-view-live{
+  margin-top: 44%;
+  margin-left: 7%;
+
+
+}
 
 
 

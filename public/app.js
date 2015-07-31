@@ -79,6 +79,7 @@ $(function(){
   $(".project3b").on("click", openProject3);
   $(".project4b").on("click", openProject4);
   $("body").on("click", ".go-back", projectPage)
+  $("body").on("click", ".back", projectPage)
 })
 
 
