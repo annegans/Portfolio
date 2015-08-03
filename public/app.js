@@ -1,14 +1,17 @@
 function toggleAbout(){
-  
-  $(".togglebox").slideToggle("slow")
-  
+  $(".togglebox").slideToggle("slow") 
+}
+
+function closeAbout(){
+  $(".togglebox").slideUp("slow")
 }
 
 function toggleContact(){
-  // $(".togglebox2").slideToggle("slow")
-  // $(".togglebox2").show( "slide", {direction: "up" }, 2000 );
-  $(".togglebox2").slideToggle("slow")
-  // $(".split-toggle").toggleUp("fast")
+  $(".togglebox2").slideToggle("slow")  
+}
+
+function closeContact(){
+  $(".togglebox2").slideUp("slow")
 }
 
 
@@ -68,18 +71,24 @@ function projectPage(){
  $(".project4-toggleclass").slideUp("fast")
  $(".go-back").removeAttr("id","show-botton")
 
-
 }
+
+
+
+
 
 $(function(){
   $(".babout").on("click", toggleAbout);
+  $("body").on("click",".closeAbout", closeAbout)
   $(".bcontact").on("click", toggleContact);
+  $("body").on("click",".closeContact", closeContact)
   $(".project1b").on("click", openProject1);
   $(".project2b").on("click", openProject2);
   $(".project3b").on("click", openProject3);
   $(".project4b").on("click", openProject4);
   $("body").on("click", ".go-back", projectPage)
   $("body").on("click", ".back", projectPage)
+  
 })
 
 

@@ -71,17 +71,72 @@
 
 .box10 {
  width: 100%;
-
-
 }
 
 
 .header{
-  height: 215px;
+  padding: 5%;
 }
 
+
+
+.nave-info{
+  width:30%;
+  background-color: blue;
+
+}
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    /* left: 25px; */
+    /* right: -48px; */
+    width: 100%;
+    z-index: 999;
+    height: 59px;
+    border-top: 4px solid #141C1D;
+    margin-top: 1%;
+    vertical-align: top;
+    margin-bottom: 0%;
+    border-bottom: 4px solid black;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+   
+
+}
+
+.menu-left{
+  display: inline-block;
+  width:25%;
+  text-align:center;
+  font-size: 13px;
+  letter-spacing: 5px;
+  margin-top: 1.2%;
+}
+
+
 .namebox{
- 
+  font-family: helvetica;
+  text-align: center;
+  margin-top: 1.2%;
+  letter-spacing: 29px;
+  display: inline-block; 
+  width:50%;
+}
+
+.namebox:hover{
+  color: rgb(54, 133, 232);
+
+}
+
+.menu-right{
+  display:inline-block;
+  width:25%;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 5px;
+  margin-top: 1.2%;
+
 }
 
 .naam-logo{
@@ -89,6 +144,7 @@
   margin-top: 7%;
   /*margin-left: 0.30%;*/
   margin-left: 22.6%;
+  display: inline-block;
 
 }
 
@@ -126,6 +182,11 @@
   height: 20px;
 }
 
+.split-main{
+  height:10px;
+  width:100%;
+}
+
 .bwork{
   background-color: rgb(54, 133, 232);
 
@@ -144,26 +205,44 @@
 }
 
 .togglebox{
-    width: 51.3%; 
-    display: none;
-    margin-left: 24.3%;
-    background-color: rgb(93, 255, 236);
-    display:none;
-    padding-bottom: 3%;
-    
+  width: 51.3%;
+  display: none;
+  margin-left: 24.3%;
+  background-color: rgb(93, 255, 236);
+  display: none;
+  padding-bottom: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1.6%;
+  width: 48.2%;
+  margin-bottom: 1.2%;
+  font-family: GillSans,"Gill Sans MT",Calibri,sans-serif;
+  letter-spacing: 1px;
+  font-size: 13px;
 
+    
 }
 
 .togglebox2{
-    width: 51.3%;
-    display: none;
-    margin-left: 24.3%;
-    background-color: rgb(36, 210, 232);
-    display:none;
-    padding-bottom: 20px;
+  width: 51.3%;
+  display: none;
+  margin-left: 24.3%;
+  background-color: rgb(93, 255, 236);
+  display: none;
+  padding-bottom: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1.6%;
+  width: 48.2%;
+  margin-bottom: 1.2%;
+  font-family: GillSans,"Gill Sans MT",Calibri,sans-serif;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-align: center;
 }
 
-.aboutbox{
+.margin-about{
+      padding: 4%;
 
 }
 .titlebox{
@@ -295,8 +374,13 @@ body {
 }
 
 
- .box:hover{
+ .box25:hover{
   opacity: 0.5;
+  width:24.7%;
+ }
+
+ .border:hover{
+  height:267px;
  }
 
 

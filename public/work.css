@@ -1,18 +1,22 @@
 .project1b{
   background-color: rgb(78, 255, 183);
+  border-bottom: 4px solid black;
 
 }
 
 .project2b{
-  background-color:  rgb(162, 253, 184)
+  background-color:  rgb(162, 253, 184);
+  border-bottom: 4px solid black;
 }
 
 .project3b{
-      background-color: rgb(121, 250, 143);
+  background-color: rgb(121, 250, 143);
+  border-bottom: 4px solid black;
 
 }
 .project4b{
-     background-color: rgb(217, 254, 161)
+  background-color: rgb(217, 254, 161);
+  border-bottom: 4px solid black;
 }
 
 .hide-project{
@@ -20,10 +24,10 @@
 }
 
 .img-project{
-  border: 0;
+/*  border: 0;
   width: 76%;
   margin-left: 12%;
-  margin-top: 40px;
+  margin-top: 40px;*/
 
 }
 
@@ -161,7 +165,7 @@
 }
 
 #text-toggle-project{ 
-    padding: 24px;
+    padding: 1.6%;
     width: 48.2%;
     margin-bottom: 1.2%;
     font-family: GillSans,"Gill Sans MT",Calibri,sans-serif;
@@ -194,10 +198,13 @@
   margin-top: 44%;
   margin-left: 7%;
 
-
 }
 
 
+.bx-wrapper, .bx-viewport, .bx-wrapper img {
+    height: 96%;
+    width: 92%;
+  }
 
 
 

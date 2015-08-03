@@ -6,16 +6,33 @@
  <!--  <h1>Hello there</h1> -->
 <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- jQuery library (served from Google) -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="/js/jquery.bxslider.min.js"></script>
+<script src="/js/jquery.bxslider.js"></script>
+
+
 <script type="text/javascript" src= "/app.js"></script>
+<script type="text/javascript" src= "/js/slider.js"></script>
 <link rel="stylesheet" href="/main.css">
 <link rel="stylesheet" href="/work.css">
+<link href="/js/jquery.bxslider.css" rel="stylesheet" />
+
+
+
 
 </head>
 <body>
+  <div class="nav-bar">
+    <div class="box menu-left">HOME</div>
+    <div class="box namebox">WEB PROJECTS</div>
+    <div class="box menu-right">CONTACT</div>
+    <i class="fa fa-github-square"></i>
+    <i class="fa fa-linkedin-square"></i>
+  </div>
     <div class="box10 header">
-     <div class="namebox">
-       <img class="naam-logo"src="/img/projects-log.jpg" >
-     </div>
+     
     </div>
 
 
@@ -33,7 +50,12 @@
     </div>
 
     <div class="box box25 project2text">
-      <div class="border scroll">   
+      <div class="border scroll">
+        <div class="margin-view-live">
+         <span class="view-live">View Project on github</span><br><br>
+         <span class="view-live">View Project live</span><br><br>
+         <span class="view-live back" >Go Back to projects</span><br><br>
+       </div>   
       </div>
     </div>
 
@@ -45,9 +67,13 @@
     <div class="box box25 project1text">
       <div class="border scroll" >
         <div class="projects-text">
-        <div>First 4 day project </div>
-        <div>Github link: https://github.com/annegans/Tic-Tac-Toe-Project</div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste voluptatum ducimus provident cum possimus explicabo sint doloribus molestiae maxime amet, modi, praesentium nobis assumenda hic et omnis eveniet animi eligendi, sed numquam perspiciatis? Quas voluptate at autem iste sint similique illo quidem voluptas aspernatur quos consequuntur, laboriosam explicabo, rem a sunt alias quam eos vel vitae tempora odit quisquam, inventore necessitatibus animi. Dolores earum hic quisquam sunt assumenda adipisci atque doloremque voluptatum, fugit, esse quos quod veritatis officia perferendis quasi ex eaque tempore omnis dignissimos quis sit. Accusamus temporibus, earum obcaecati tempore, deserunt, corporis perspiciatis quaerat tenetur nulla esse mollitia.</div>
+        
+         <div class="margin-view-live">
+         <span class="view-live">View Project on github</span><br><br>
+         <span class="view-live">View Project live</span><br><br>
+         <span class="view-live back" >Go Back to projects</span><br><br>
+       </div>
+       </div>
       </div>
     </div>
 
@@ -68,18 +94,24 @@
     
     <div class="box box10 split "> 
     </div>
-    <div class="project1-toggleclass text-toggle-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, itaque maxime molestiae. Ipsum consequuntur, velit laboriosam nobis recusandae fuga eius incidunt, magni, qui natus, fugit labore facere commodi earum perspiciatis.</div>
-
-     <div class="project1-toggleclass">
-       <div>
-        <img class="img-project" src="/img/tic-tac-toe1.png">
-        <img class="img-project"src="/img/tic-tac-toe2.png">
-        <img class="img-project"src="/img/tic-tac-toe3.png">
-        <img class="img-project"src="/img/tic-tac-toe4.png">
-      </div>
+    <div class="project1-toggleclass " id="text-toggle-project">
+      <span class="title-text">TIC-TAC-TOE GAME</span><br><br>
+    As can be inferred from the title, this project is a blog about interior design. I was inspired by one of my previous work experiences, where I worked for an interior design photographer. During this project, I was able to combine my design and technology skills. Also, I was able to appreciate the progress I had made during the course and felt more confident working with a variety of technologies.<br><br>TECHNOLOGIES USED: Javascript, Ruby on Rails, PostgreSQL, JQuary, Dropzone.js, Carrierwave.
     </div>
 
-    <div class="project2-toggleclass text-toggle-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, itaque maxime molestiae. Ipsum consequuntur, velit laboriosam nobis recusandae fuga eius incidunt, magni, qui natus, fugit labore facere commodi earum perspiciatis.</div>
+     <div class="project1-toggleclass">
+     
+      <ul class="bxslider">
+        <li><img src="/js/images/tic-tac-toe1.png" title="Funky roots" /></li>
+        <li><img src="/js/images/tic-tac-toe3.png" title="Funky roots" /></li>  
+      </ul>
+    </div>
+
+    <div class="project2-toggleclass " id="text-toggle-project">
+      <span class="title-text">DRINKING DIARY DASHBOARD</span><br><br>
+    My first project was an alcohol tracker. The idea behind this project is to be able to track the effect of alcohol on your body during a night out.  Not only does it track your blood alcohol level, amount of calories consumed, but also the type and quantity of alcohol consumed.  The aim of this app is to make people more aware of their alcohol consumption as well as introducing a fun element. <br><br>TECHNOLOGIES USED: Javascript, Ruby on Rails, Postgress, Masonary.js, JQuary, Css, Html and Ajax.
+
+    </div>
 
     <div class="project2-toggleclass">
        <div>
@@ -129,7 +161,12 @@
     </div>
 
     <div class="box box25 project3text">
-      <div class="border scroll">   
+      <div class="border scroll"> 
+        <div class="margin-view-live">
+         <span class="view-live">View Project on github</span><br><br>
+         <span class="view-live">View Project live</span><br><br>
+         <span class="view-live back" >Go Back to projects</span><br><br>
+       </div>  
       </div>
     </div>
   
@@ -145,7 +182,11 @@
     <div class="box box10 split "> 
     </div>
 
-    <div class="project3-toggleclass text-toggle-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, itaque maxime molestiae. Ipsum consequuntur, velit laboriosam nobis recusandae fuga eius incidunt, magni, qui natus, fugit labore facere commodi earum perspiciatis.</div>
+    <div class="project3-toggleclass" id="text-toggle-project">
+      <span class="title-text">THREE THINGS I DID WEBSITE</span><br><br>
+    Being inspired by my travels, my group and I created an app, which allows you to create your own personal map, including locations you went to and the three things you enjoyed most and want to remember. When logging back in, these activities show up in the form of an interactive map. This was one of my favourite projects, not only because it involved a creative teamwork method, but also because it included pair-coding and solving problems cooperatively, which allowed me to expand my views on how to approach problems. <br><br>TECHNOLOGIES USED: Node.js, Express.js, MongoDB, Google Maps API, Google Places Library.
+
+    </div>
 
     <div class="project3-toggleclass">
        <div>
@@ -158,22 +199,27 @@
 
     <div class="project4-toggleclass" id="text-toggle-project"> 
     <span class="title-text">INTERIOR DESIGN BLOG</span><br><br>
-    As can be inferred from the title, this project is a blog about interior design. I was inspired by one of my previous work experiences, where I worked for an interior design photographer. During this project, I was able to combine my design and technology skills. Also, I was able to appreciate the progress I had made during the course and felt more confident working with a variety of technologies.<br><br>TECHNOLOGIES USED: Javascript, Ruby on Rails, PostgreSQL, JQuary, Dropzone.js, Carrierwave.
+    As can be inferred from the title, thsis project is a blog about interior design. I was inspired by one of my previous work experiences, where I worked for an interior design photographer. During this project, I was able to combine my design and technology skills. Also, I was able to appreciate the progress I had made during the course and felt more confident working with a variety of technologies.<br><br>TECHNOLOGIES USED: Javascript, Ruby on Rails, PostgreSQL, JQuary, Dropzone.js, Carrierwave.
     </div>
 
 
-     <div class="project4-toggleclass">
-       <div>
-        <img class="img-project" src="/img/tic-tac-toe1.png">
-        <img class="img-project"src="/img/tic-tac-toe2.png">
-        <img class="img-project"src="/img/tic-tac-toe3.png">
-        <img class="img-project"src="/img/tic-tac-toe4.png">
-      </div>
+     <div class="project4-toggleclass" id="reload1" >
+  
+      <ul class="bxslider" id="reload">
+        <li><img src="/js/images/tic-tac-toe3.png" /></li>
+        <li><img src="/js/images/tic-tac-toe1.png"  /></li> 
+      </ul>
+
+   
     </div>
 
      <div class="box box2">
       <div class="bordernone"></div>
     </div>
 
+<ul class="bxslider">
+        <li><img src="/js/images/tic-tac-toe3.png" /></li>
+        <li><img src="/js/images/tic-tac-toe1.png"  /></li> 
+      </ul>
 </body>
 </html>
