@@ -206,5 +206,61 @@
     width: 92%;
   }
 
+img{
+  width: 97%;
+  border: 3px solid black;
+  margin: auto;
+}
+
+.image-box{
+    margin-top: 2%;
+    padding: 11%;
+}
+.img-one{
+  display: block;
+}
+
+.img-two{
+  display:none;
+}
+
+.img-three{
+  display:none;
+}
+
+.img-four{
+  display:none;
+}
 
 
+
+/*added classes*/
+.img-hide{
+  display: none;
+}
+
+.img-show{
+  display:block;
+}
+
+.next-box{
+  margin-left: 31%;
+  margin-top: -10%;
+}
+
+
+.next{
+    display: inline-block;
+    text-align: center;
+    margin-top: -7%;
+    margin: 4%;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #161716;
+
+}
+
+.black{
+  background-color: black;
+}

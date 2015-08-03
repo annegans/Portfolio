@@ -7,17 +7,16 @@
 <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 <!-- jQuery library (served from Google) -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
 <!-- bxSlider Javascript file -->
-<script src="/js/jquery.bxslider.min.js"></script>
-<script src="/js/jquery.bxslider.js"></script>
-
-
+<!-- <script src="/js/jquery.bxslider.min.js"></script>
+<script src="/js/jquery.bxslider.js"></script> -->
 <script type="text/javascript" src= "/app.js"></script>
-<script type="text/javascript" src= "/js/slider.js"></script>
+<!-- <script type="text/javascript" src= "/js/slider.js"></script> -->
 <link rel="stylesheet" href="/main.css">
 <link rel="stylesheet" href="/work.css">
-<link href="/js/jquery.bxslider.css" rel="stylesheet" />
+<!-- <link href="/js/jquery.bxslider.css" rel="stylesheet" /> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
 
@@ -25,11 +24,14 @@
 </head>
 <body>
   <div class="nav-bar">
-    <div class="box menu-left">HOME</div>
+    <!-- <div class="box menu-left">HOME</div> -->
+    <a href="/" class="box menu-left">HOME</a>
     <div class="box namebox">WEB PROJECTS</div>
-    <div class="box menu-right">CONTACT</div>
-    <i class="fa fa-github-square"></i>
-    <i class="fa fa-linkedin-square"></i>
+    <div class="box menu-right">
+      <a href="https://github.com/annegans"><i class="fa fa-github-square "></i></a>
+      <a href="https://uk.linkedin.com/in/anneganzeboom"><i class="fa fa-linkedin-square "></i></a>
+      <a href="your link here"><i class="fa fa-envelope "></i></a>
+    </div>
   </div>
     <div class="box10 header">
      
@@ -52,9 +54,9 @@
     <div class="box box25 project2text">
       <div class="border scroll">
         <div class="margin-view-live">
-         <span class="view-live">View Project on github</span><br><br>
-         <span class="view-live">View Project live</span><br><br>
-         <span class="view-live back" >Go Back to projects</span><br><br>
+         <a href="https://github.com/annegans/Tic-Tac-Toe-Project"><span class="view-live">View Project live</span><br><br></a>
+         <a href="https://github.com/annegans/Tic-Tac-Toe-Project"><span class="view-live">View Project on github</span></a><br><br>
+         
        </div>   
       </div>
     </div>
@@ -68,10 +70,9 @@
       <div class="border scroll" >
         <div class="projects-text">
         
-         <div class="margin-view-live">
-         <span class="view-live">View Project on github</span><br><br>
-         <span class="view-live">View Project live</span><br><br>
-         <span class="view-live back" >Go Back to projects</span><br><br>
+        <div class="margin-view-live">
+          <a href=""><span class="view-live">View Project live</span></a><br><br>
+          <a href="https://github.com/annegans/project2"><span class="view-live">View Project on github</span></a><br><br>
        </div>
        </div>
       </div>
@@ -101,10 +102,22 @@
 
      <div class="project1-toggleclass">
      
-      <ul class="bxslider">
-        <li><img src="/js/images/tic-tac-toe1.png" title="Funky roots" /></li>
-        <li><img src="/js/images/tic-tac-toe3.png" title="Funky roots" /></li>  
-      </ul>
+       <div >
+        <div class="image-box">
+        <img  class="img-one"src="/img/threethingsidid1.jpg"/>
+        <img class="img-two"src="/img/threethingsidid2.jpg"/>
+        <img class="img-three"src="/img/threethingsidid3.jpg"/>
+        <img class="img-four"src="/img/threethingsidi4.jpg"/>
+        </div>
+      </div>
+
+      <div class="next-box" >
+        <div class="first-img next"></div>
+        <div class="second-img next"></div>
+        <div class="third-img next"></div>
+        <div class="four-img next"></div>
+      </div>
+
     </div>
 
     <div class="project2-toggleclass " id="text-toggle-project">
@@ -114,11 +127,20 @@
     </div>
 
     <div class="project2-toggleclass">
-       <div>
-        <img class="img-project" src="/img/tic-tac-toe1.png">
-        <img class="img-project"src="/img/tic-tac-toe2.png">
-        <img class="img-project"src="/img/tic-tac-toe3.png">
-        <img class="img-project"src="/img/tic-tac-toe4.png">
+     <div >
+        <div class="image-box">
+        <img  class="img-one"src="/img/tic-tac-toe1.png" />
+        <img class="img-two"src="/img/tic-tac-toe2.png" />
+        <img class="img-three"src="/img/tic-tac-toe3.png" />
+        <img class="img-four"src="/img/tic-tac-toe4.png" />
+        </div>
+      </div>
+
+      <div class="next-box" >
+        <div class="first-img next"></div>
+        <div class="second-img next"></div>
+        <div class="third-img next"></div>
+        <div class="four-img next"></div>
       </div>
     </div>
 
@@ -149,9 +171,9 @@
      <div class="box box25 project4text">
       <div class="border scroll "> 
        <div class="margin-view-live">
-         <span class="view-live">View Project on github</span><br><br>
-         <span class="view-live">View Project live</span><br><br>
-         <span class="view-live back" >Go Back to projects</span><br><br>
+         
+         <a href="http://lit-peak-9551.herokuapp.com/"><span class="view-live">View Project live</span><br><br>
+         <a href="https://github.com/annegans/Project3"><span class="view-live">View Project on github</span></a><br><br>
        </div> 
       </div>
     </div>
@@ -162,10 +184,9 @@
 
     <div class="box box25 project3text">
       <div class="border scroll"> 
-        <div class="margin-view-live">
-         <span class="view-live">View Project on github</span><br><br>
-         <span class="view-live">View Project live</span><br><br>
-         <span class="view-live back" >Go Back to projects</span><br><br>
+        <div class="margin-view-live"> 
+         <a href="http://threethingsidid.herokuapp.com/"><span class="view-live">View Project live</span></a><br><br>
+         <a href="https://github.com/abcdave88/group-project"><span class="view-live">View Project on github</span></a><br><br>
        </div>  
       </div>
     </div>
@@ -189,12 +210,23 @@
     </div>
 
     <div class="project3-toggleclass">
-       <div>
-        <img class="img-project" src="/img/tic-tac-toe1.png">
-        <img class="img-project"src="/img/tic-tac-toe2.png">
-        <img class="img-project"src="/img/tic-tac-toe3.png">
-        <img class="img-project"src="/img/tic-tac-toe4.png">
+
+      <div >
+        <div class="image-box">
+        <img  class="img-one"src="/img/tic-tac-toe1.png" />
+        <img class="img-two"src="/img/tic-tac-toe2.png" />
+        <img class="img-three"src="/img/tic-tac-toe3.png" />
+        <img class="img-four"src="/img/tic-tac-toe4.png" />
+        </div>
       </div>
+
+      <div class="next-box" >
+        <div class="first-img next"></div>
+        <div class="second-img next"></div>
+        <div class="third-img next"></div>
+        <div class="four-img next"></div>
+      </div>
+
     </div>
 
     <div class="project4-toggleclass" id="text-toggle-project"> 
@@ -203,13 +235,23 @@
     </div>
 
 
-     <div class="project4-toggleclass" id="reload1" >
+     <div class="project4-toggleclass" >
   
-      <ul class="bxslider" id="reload">
-        <li><img src="/js/images/tic-tac-toe3.png" /></li>
-        <li><img src="/js/images/tic-tac-toe1.png"  /></li> 
-      </ul>
+      <div >
+        <div class="image-box">
+        <img  class="img-one"src="/img/tic-tac-toe1.png" />
+        <img class="img-two"src="/img/tic-tac-toe2.png" />
+        <img class="img-three"src="/img/tic-tac-toe3.png" />
+        <img class="img-four"src="/img/tic-tac-toe4.png" />
+        </div>
+      </div>
 
+      <div class="next-box" >
+        <div class="first-img next"></div>
+        <div class="second-img next"></div>
+        <div class="third-img next"></div>
+        <div class="four-img next"></div>
+      </div>
    
     </div>
 
@@ -217,9 +259,9 @@
       <div class="bordernone"></div>
     </div>
 
-<ul class="bxslider">
+     <!--  <ul class="bxslider">
         <li><img src="/js/images/tic-tac-toe3.png" /></li>
         <li><img src="/js/images/tic-tac-toe1.png"  /></li> 
-      </ul>
+      </ul> -->
 </body>
 </html>

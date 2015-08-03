@@ -1,17 +1,18 @@
 function toggleAbout(){
-  $(".togglebox").slideToggle("slow") 
+  $(".togglebox1").slideDown("slow") 
+ 
 }
 
 function closeAbout(){
-  $(".togglebox").slideUp("slow")
+  $(".togglebox1").slideUp("slow")
 }
 
 function toggleContact(){
-  $(".togglebox2").slideToggle("slow")  
+  $(".togglebox3").slideDown("slow")  
 }
 
 function closeContact(){
-  $(".togglebox2").slideUp("slow")
+  $(".togglebox3").slideUp("slow")
 }
 
 
@@ -73,9 +74,53 @@ function projectPage(){
 
 }
 
+function showFirst(){
+  $('.img-one').removeClass('img-hide')
+  $('.img-two').removeClass('img-show')
+  $('.img-three').removeClass('img-hide')
+  $('.img-four').removeClass('img-show')
 
+  $('.first-img').addClass('black')
+  $('.second-img').removeClass('black')
+  $('.third-img').removeClass('black')
+  $('.four-img').removeClass('black')
+}
 
+function showSecond(){
+  $('.img-one').addClass('img-hide')
+  $('.img-two').addClass('img-show')
+  $('.img-four').removeClass('img-show')
+  $('.img-three').removeClass('img-show')
 
+  $('.second-img').addClass('black')
+  $('.first-img').removeClass('black')
+  $('.third-img').removeClass('black')
+  $('.four-img').removeClass('black')
+}
+
+function showThird(){
+  $('.img-three').addClass('img-show')
+  $('.img-one').addClass('img-hide')
+  $('.img-two').removeClass('img-show')
+  $('.img-four').removeClass('img-show')
+
+  $('.third-img').addClass('black')
+  $('.first-img').removeClass('black')
+  $('.second-img').removeClass('black')
+  $('.four-img').removeClass('black')
+  
+}
+function showFour(){
+  $('.img-three').removeClass('img-show')
+  $('.img-one').addClass('img-hide')
+  $('.img-two').removeClass('img-show')
+  $('.img-four').addClass('img-show')
+
+  $('.four-img').addClass('black')
+  $('.first-img').removeClass('black')
+  $('.second-img').removeClass('black')
+  $('.third-img').removeClass('black')
+}
 
 $(function(){
   $(".babout").on("click", toggleAbout);
@@ -88,6 +133,14 @@ $(function(){
   $(".project4b").on("click", openProject4);
   $("body").on("click", ".go-back", projectPage)
   $("body").on("click", ".back", projectPage)
+  $("body").on("click", ".first-img", showFirst)
+  $("body").on("click", ".second-img", showSecond)
+  $("body").on("click", ".third-img", showThird)
+  $("body").on("click", ".four-img", showFour)
+
+
+  document.documentElement.style.overflowX = 'hidden';
+"hidden"
   
 })
 

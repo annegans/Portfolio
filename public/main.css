@@ -1,5 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Mallanna);
 
+
+a{
+  text-decoration: none;
+  color:black;
+}
+ li{ 
+  text-decoration: none;
+  color:black;
+ }
+
 .box {
  margin-right: -4px;
  display: inline-block;
@@ -189,19 +199,23 @@
 
 .bwork{
   background-color: rgb(54, 133, 232);
+  border-bottom: 4px solid black;
 
 }
 
 .babout{
   background-color: rgb(93, 255, 236);
+  border-bottom: 4px solid black;
 }
 
 .bcontact{
   background-color: rgb(36, 210, 232);
+  border-bottom: 4px solid black;
 
 }
 .bwork2{
  background-color: rgb(105, 205, 255);
+border-bottom: 4px solid black;
 }
 
 .togglebox{
@@ -218,9 +232,24 @@
   margin-bottom: 1.2%;
   font-family: GillSans,"Gill Sans MT",Calibri,sans-serif;
   letter-spacing: 1px;
-  font-size: 13px;
+  font-size: 13px;   
+}
 
-    
+.togglebox1{
+  width: 51.3%;
+  display: none;
+  margin-left: 24.3%;
+  background-color: rgb(93, 255, 236);
+  display: none;
+  padding-bottom: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1.6%;
+  width: 48.2%;
+  margin-bottom: 1.2%;
+  font-family: GillSans,"Gill Sans MT",Calibri,sans-serif;
+  letter-spacing: 1px;
+  font-size: 13px;   
 }
 
 .togglebox2{
@@ -241,6 +270,24 @@
   text-align: center;
 }
 
+.togglebox3{
+  width: 51.3%;
+  display: none;
+  margin-left: 24.3%;
+  background-color: rgb(93, 255, 236);
+  display: none;
+  padding-bottom: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1.6%;
+  width: 48.2%;
+  margin-bottom: 1.2%;
+  font-family: GillSans,"Gill Sans MT",Calibri,sans-serif;
+  letter-spacing: 1px;
+  font-size: 13px;
+  background-color: rgb(36, 210, 232);
+
+}
 .margin-about{
       padding: 4%;
 
@@ -383,5 +430,12 @@ body {
   height:267px;
  }
 
+.close-it{
+  display: inline-block;
+  margin-left: 73%
+}
 
+.close-it:hover{
+ color: rgb(54, 133, 232);
+}
 
