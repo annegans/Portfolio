@@ -1,6 +1,6 @@
 function toggleAbout(){
   $(".togglebox1").slideDown("slow") 
- 
+
 }
 
 function closeAbout(){
@@ -127,10 +127,12 @@ $(function(){
   $("body").on("click",".closeAbout", closeAbout)
   $(".bcontact").on("click", toggleContact);
   $("body").on("click",".closeContact", closeContact)
+
   $(".project1b").on("click", openProject1);
   $(".project2b").on("click", openProject2);
   $(".project3b").on("click", openProject3);
   $(".project4b").on("click", openProject4);
+  
   $("body").on("click", ".go-back", projectPage)
   $("body").on("click", ".back", projectPage)
   $("body").on("click", ".first-img", showFirst)
