@@ -195,8 +195,18 @@
 }
 
 .margin-view-live{
-  margin-top: 44%;
-  margin-left: 7%;
+  /*margin-top: 44%;*/
+  margin-left: 2%;
+  position: absolute;
+    margin-top: 13%;
+
+}
+
+.margin-view-live-right{
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 11%;
+    text-align: right;
 
 }
 
@@ -244,7 +254,7 @@ img{
 }
 
 .next-box{
-  margin-left: 31%;
+  margin-left: 35%;
   margin-top: -10%;
 }
 
@@ -255,8 +265,8 @@ img{
     margin-top: -7%;
     margin: 4%;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 13px;
+    height: 13px;
     border: 2px solid #161716;
 
 }
