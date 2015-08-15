@@ -17,8 +17,14 @@ app.get('/', function(req, res){
 
 
 app.get('/work', function(req, res){
-res.render('work')
+  res.render('work')
 })
+
+app.get('/designwork', function(req, res){
+  res.render('designwork')
+})
+
+
 
 app.listen(port, function(){
   console.log('Server started on http://localhost:3000');

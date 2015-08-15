@@ -1,0 +1,45 @@
+.start-porjects{
+  width: 100%;
+  height: 5px;
+  background-color: black; 
+  margin-top: 10%;
+}
+
+.new-project{
+  width: 53%;
+  height: 40px;
+  background-color: black;
+  margin: center;
+  margin: auto;
+  margin-top: 1%;
+}
+
+
+.pic-project{
+  width: 53%;
+  height: 400px;
+  background-color: black;
+  margin: center;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.dwork1{
+  background-color: rgb(241, 245, 95);
+  border-bottom: 4px solid black;
+}
+
+.dwork2{
+  background-color:  rgb(224, 251, 142);
+  border-bottom: 4px solid black;
+}
+
+.dwork3{
+  background-color: rgba(246, 253, 0, 0.75);
+  border-bottom: 4px solid black;
+}
+
+.dwork4{
+  background-color: rgb(255, 193, 90);
+  border-bottom: 4px solid black;
+}
